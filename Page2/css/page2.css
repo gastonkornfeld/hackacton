@@ -1,0 +1,233 @@
+
+* {
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    
+}
+
+a {
+    text-decoration: none;
+}
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+    
+    margin: 30px;
+    padding: 20px;
+}
+
+
+h4 {
+    text-align: center;
+    
+    margin: 30px;
+    padding: 20px;
+}
+button {
+    width: 100px;
+    height: 100px;
+    margin: 10px 10px;
+    border-radius: 45%;
+    font-size: 17px;
+    
+
+}
+/* the wining buton */
+#win {
+    display: none;
+    background: #ee9ca7; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ee9ca7, #ffdde1); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ee9ca7, #ffdde1); 
+}
+#butons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+}
+
+.flex {
+    display: flex;
+    
+
+}
+
+
+.instrucbut {
+    background-color: blueviolet;
+    color: burlywood;
+}
+
+.hidden {
+    display: none;
+    text-align: center;
+    border-bottom: 1px solid orange;
+}
+
+#butons .hidden {
+    
+    font-size: 12px;
+}
+
+
+
+/* coloured buttons */
+#blue {
+    background-color: rgb(65, 35, 240);
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    font-family: monospace;
+}
+
+#red {
+    background-color: rgb(214, 51, 51);
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    font-family: monospace;
+}
+
+
+#green {
+    background-color: rgb(28, 211, 52);
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    font-family: monospace;
+}
+
+#yellow {
+    background-color: rgb(250, 239, 84);
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+    font-family: monospace;
+    border: 2px solid black;
+}
+
+/* question 5 and 12 image */
+#image1, #image2 {
+    width: 250px;
+    height: 300px;
+    left: 50px;
+}
+
+
+
+
+
+
+
+/* all the buttoms styles */
+/* /dictionary buton  */
+#b4 {
+    font-size: 13px;
+}
+
+/* linear gradient with the backgrounds */
+
+#b6, #b12, #b18, #b24, #b30, #b36, #b42, #b48, #b54, #b60 {
+    background-color: #ff8177;
+}
+
+#b5, #b11, #b17, #b23, #b29, #b35, #b41, #b47, #b53, #b59 {
+    background-color: #ff867a;
+}
+
+#b4, #b10, #b16, #b22, #b28, #b34, #b40, #b46, #b52, #b58 {
+    background-color: #ff8c7f;
+}
+
+#b3, #b9, #b15, #b21, #b27, #b33,  #b47, #b45, #b51, #b57  {
+    background-color: #f99185;
+}
+
+#b2, #b8,  #b20, #b26, #b32, #b38,  #b44, #b50,  #b56{
+    background-color: #cf556c;
+}
+
+#b1, #b7, #b13, #b19, #b25, #b31, #b37, #b43, #b49, #b55 {
+    background-color: #b12a5b;
+}
+
+
+#b14 {
+    background-color: lightseagreen;
+    border: 2px dotted blue;
+    color: antiquewhite;
+}
+
+
+
+#b39 {
+    background-color: rgba(250, 3, 3, 0.986);
+    border: 5px solid yellowgreen;
+    height: 125px;
+    width: 125px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 200px;
+    bottom: -300px;
+}
+
+
+
+/* score */
+
+
+#score {
+    text-align: right;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+/* the erase buton */
+
+#but14 {
+    background: linear-gradient( #3dd120, #cf3d18);
+}
+
+/* start again buton */
+
+#startAgain {
+    display: none;
+    text-decoration: none;
+    font-size: 30px;
+    color: red;
+}
+
+
+
+#level2 {
+    display: none;
+    text-decoration: none;
+    font-size: 30px;
+    color: red;
+}
+
+
+/* quetion 33 image */
+
+#image4 {
+    height: 300px;
+    width: 300px;
+
+}
+
+
+/* footer */
+
+#footer {
+    display: none;
+    text-align: center;
+}
+
+marquee {
+    width: "30px";
+    direction: "down";
+    height: "100px";
+}
