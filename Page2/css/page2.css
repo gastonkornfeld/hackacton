@@ -226,6 +226,10 @@ button {
     text-align: center;
 }
 
+i {
+    color: orange ;
+ }
+ 
 marquee {
     width: "30px";
     direction: "down";

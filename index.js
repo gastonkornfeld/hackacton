@@ -118,7 +118,7 @@ sequenceOf4Buttons (element26, element8, element15, element18);
 sequenceOf4Buttons (element10, element30, element4, element24);
 sequenceOf4Buttons (element12, element9, element2, element19);
 sequenceOf4Buttons (element17, element22, element31, element13);
-sequenceOf4Buttons (element28, element33, element14, element6);
+sequenceOf4Buttons (element28, element14, element33, element6);
 sequenceOf4Buttons (element25, element5, element36, element34);
 sequenceOf4Buttons (element3, element7, element11, element21);
 sequenceOf4Buttons (element20, element23, element29, element32);
@@ -130,7 +130,7 @@ let winingButon = document.getElementById("win");
 
 winingButon.addEventListener('click', () => {
     if (winArray.length > 8) {
-        document.body.innerHTML = "YOU WON THE FIRST LEVEL CONTRATULATIONS" 
+        document.body.innerHTML = "YOU WON THE FIRST LEVEL CONGRATULATIONS" 
     + "<br><br><br>";
     document.body.appendChild(level2Buton);
     level2Buton.style.display = "inline"; 

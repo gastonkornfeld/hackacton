@@ -10,19 +10,19 @@
 
 let userName = "";
 while (userName == "") {
-    userName= prompt("Before starting Tell me your name");
+    userName= prompt("In this level I will need your name");
 }
 
 let userPersonalQuestion = "";
 while (userPersonalQuestion == "") {
-    userPersonalQuestion = prompt("Now i need you to put the name of your mother");
+    userPersonalQuestion = prompt("Now i need the name of your mother");
 
 
 }
 
 let userEyesColour = ""; //used in buton 32
 while (userEyesColour == "") {
-    userEyesColour = prompt("The most important question. wich colour are your eyes?");
+    userEyesColour = prompt("And the most important question. wich colour are your eyes?");
 
 
 }
@@ -181,7 +181,7 @@ questionIndtructionsButon.addEventListener('click', () => {
 let instructionsLogicButon = document.getElementById("b39"); //first button of 64 the instructionss
 
 instructionsLogicButon.addEventListener('click', () => {
-    alert("Hello welcome to My logic game,  dont try to follow an order. Enjoy"); //the instructions of the beggining goes here
+    alert("Hello welcome to the level 2,  dont try to follow an order. Enjoy"); //the instructions of the beggining goes here
     alert("They are some clues happening in the console. You should check it after you resolve the exercises");
     alert("the objective of the game is to pass to the next Screen, one without buttons");
     divButons.style.display = "grid";

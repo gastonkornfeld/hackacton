@@ -7,44 +7,43 @@
 a {
     text-decoration: none;
 }
+
 body {
-    background-color: aliceblue;
+    background-color: aquamarine;
 }
 
 h1 {
     text-align: center;
-    
-    margin: 30px;
-    padding: 20px;
 }
-
 
 h4 {
     text-align: center;
-    
     margin: 30px;
     padding: 20px;
 }
+
 button {
     width: 100px;
     height: 100px;
     margin: 10px 10px;
     border-radius: 45%;
     font-size: 17px;
-    
-
 }
+
 /* the wining buton */
+
 #win {
   
     background: #ee9ca7; /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #ee9ca7, #ffdde1); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #ee9ca7, #ffdde1); 
 }
+
 #butons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
     
 }
 
@@ -53,7 +52,6 @@ button {
     
 
 }
-
 
 .instrucbut {
     background-color: blueviolet;
@@ -71,68 +69,9 @@ button {
     font-size: 12px;
 }
 
-
-
-
-
-
-
-
-
-/* all the buttoms styles */
-/* /dictionary buton  */
-#b4 {
-    font-size: 13px;
+#butons button {
+    background: linear-gradient( #1e9600, #fff200, #ff0000);
 }
-
-/* linear gradient with the backgrounds */
-
-#b6, #b12, #b18, #b24, #b30, #b36, #b42, #b48, #b54, #b60 {
-    background-color: #ff8177;
-}
-
-#b5, #b11, #b17, #b23, #b29, #b35, #b41, #b47, #b53, #b59 {
-    background-color: #ff867a;
-}
-
-#b4, #b10, #b16, #b22, #b28, #b34, #b40, #b46, #b52, #b58 {
-    background-color: #ff8c7f;
-}
-
-#b3, #b9, #b15, #b21, #b27, #b33,  #b47, #b45, #b51, #b57  {
-    background-color: #f99185;
-}
-
-#b2, #b8,  #b14, #b20, #b26, #b32, #b38,  #b44, #b50,  #b56{
-    background-color: #cf556c;
-}
-
-#b1, #b7, #b13, #b19, #b25, #b31, #b37, #b43, #b49, #b55 {
-    background-color: #b12a5b;
-}
-
-
-
-
-
-
-#b39 {
-    background-color: rgba(250, 3, 3, 0.986);
-    border: 5px solid yellowgreen;
-    height: 125px;
-    width: 125px;
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    left: 200px;
-    bottom: -300px;
-}
-
-
-
-/* score */
-
-
 
 /* start again buton */
 
@@ -143,8 +82,6 @@ button {
     color: red;
 }
 
-
-
 #level2 {
     display: none;
     text-decoration: none;
@@ -152,19 +89,17 @@ button {
     color: red;
 }
 
-
-/* quetion 33 image */
-
-
-
-
 /* footer */
 
 #footer {
-    display: none;
+    display: block;
     text-align: center;
+    
 }
 
+i {
+   color: orange ;
+}
 marquee {
     width: "30px";
     direction: "down";
